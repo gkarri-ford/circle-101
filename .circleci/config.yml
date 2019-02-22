@@ -3,7 +3,6 @@ jobs:
   build:
     docker:
       - image: circleci/ruby:2.4.1
-      - image: circleci/node:some_tag
     steps:
       - checkout
       - run: not a command
